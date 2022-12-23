@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#4CAF50"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/ipu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="MAIT"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahatma Gandhi University"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFEB3B"
+        android:layout_below="@id/ipu"
+        android:textStyle="italic"
+        android:layout_centerInParent="true"
+        android:id="@+id/mgu"
+        />
+
+    <TextView
+        android:id="@+id/davv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mgu"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="DAVV"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IIT Mumbai"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#FFEB3B"
+        android:textStyle="italic"
+        android:id="@+id/iit"
+        android:layout_below="@id/davv"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IIM Ahemdabad"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#FFEB3B"
+        android:textStyle="italic"
+        android:id="@+id/iim"
+        android:layout_below="@id/iit"
+        />
+
+
+
+
+</RelativeLayout>
